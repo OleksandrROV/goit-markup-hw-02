@@ -2,12 +2,15 @@
     --main-title-color: #ffffff;
     --main-link-color: #212121;
     --main-text-color: #757575;
-    --main-btn-color:#ffffff;
-    --main-subtitle-color:#212121;
-    --main-Portfolio-text-color:#757575;
-    --mine-navi-btn-color:#212121;
+    --main-btn-color: #ffffff;
+    --main-subtitle-color: #212121;
+    --main-Portfolio-text-color: #757575;
+    --mine-navi-btn-color: #212121;
     --raleway: 'Raleway', sans-serif;
     --roboto: 'roboto', sans-serif
+}
+.current {
+    color:#2196f3;
 }
 
 body {
@@ -252,8 +255,6 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--mine-navi-btn-color);
-    border-radius: 4px;
-    border-style: none;
 }
 
 .navi-btn:hover,
@@ -265,9 +266,7 @@ body {
 /* Portfolio */
 
 
-a {
-    text-decoration: none;
-}
+
 
 .Portfolio-sub-title {
     font-family: 'Roboto';
