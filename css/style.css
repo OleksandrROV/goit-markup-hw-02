@@ -26,7 +26,8 @@ body {
     list-style: none;
 }
 
-.header-link:hover {
+.header-link:hover,
+.header-link:focus {
     color: #2196F3;
 }
 
@@ -69,7 +70,7 @@ body {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -160,7 +161,7 @@ body {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
-    line-height: 1, 87;
+    line-height: 1,87;
     letter-spacing: 0.03em;
     color: #212121;
 }
@@ -169,7 +170,7 @@ body {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
-    line-height: 1, 87;
+    line-height: 1,87;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -203,6 +204,7 @@ body {
 
 
 .footer-maps {
+    font-style: normal;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
@@ -234,6 +236,7 @@ body {
 
 
 /* Page 2 */
+
 /* Navi */
 
 
