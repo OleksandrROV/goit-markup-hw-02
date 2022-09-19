@@ -6,7 +6,10 @@
     --main-subtitle-color: #212121;
     --main-Portfolio-text-color: #757575;
     --mine-navi-btn-color: #212121;
-    --raleway: 'Raleway', sans-serif;
+    --main-order-service:#2196F3;
+    --main-background: #2F303A;
+    --main-navi-btn-background:#F5F4FA;
+    --raleway: 'raleway', sans-serif;
     --roboto: 'roboto', sans-serif
 }
 
@@ -35,15 +38,11 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196f3;
+    color: var(--main-order-service);
 }
 
 .header-studio {
     font-family: var(--Raleway);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
     color: #000000;
 }
 
@@ -103,7 +102,7 @@ body {
 /* section 1 */
 
 .hero {
-    background-color: #2f303a;
+    background-color: var(--main-background);
 }
 
 .hero-title {
@@ -143,8 +142,6 @@ body {
 }
 
 .item-text {
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -162,6 +159,9 @@ body {
 }
 
 /* team */
+.team {
+    background: #F5F4FA;
+}
 
 .team-title {
     font-family: 'Roboto';
@@ -192,7 +192,7 @@ body {
 
 /* footer */
 .footer {
-    background-color: #2f303a;
+    background-color: var(--main-background);
 }
 
 .footer-logo {
@@ -202,7 +202,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196f3;
+    color: var(--main-order-service);
 }
 
 .footer-studio {
@@ -256,6 +256,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--mine-navi-btn-color);
+    background: var(--main-navi-btn-background);
 }
 
 .navi-btn:hover,
@@ -270,7 +271,6 @@ body {
 
 
 .Portfolio-sub-title {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -279,8 +279,6 @@ body {
 }
 
 .Portfolio-text {
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
